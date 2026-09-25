@@ -1,0 +1,15 @@
+{
+  "name": "@hometutoring/ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "^18.3.1",
+    "clsx": "^2.1.1"
+  },
+  "scripts": {
+    "lint": "echo 'no lint configured yet'",
+    "build": "echo 'no build step needed for plain JS'"
+  }
+}

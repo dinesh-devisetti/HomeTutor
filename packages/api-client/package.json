@@ -1,0 +1,14 @@
+{
+  "name": "@hometutoring/api-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "dependencies": {
+    "@hometutoring/types": "workspace:*"
+  },
+  "scripts": {
+    "lint": "echo 'no lint configured yet'",
+    "build": "echo 'no build step needed for plain JS'"
+  }
+}

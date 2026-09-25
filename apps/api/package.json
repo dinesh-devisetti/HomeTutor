@@ -1,0 +1,21 @@
+{
+  "name": "@hometutoring/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/main.js",
+  "dependencies": {
+    "@hometutoring/types": "workspace:*",
+    "@prisma/client": "^5.22.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.23.8"
+  },
+  "scripts": {
+    "dev": "node --watch --env-file=../../.env src/main.js",
+    "build": "echo 'no build step needed for plain JS'",
+    "lint": "echo 'no lint configured yet'"
+  }
+}

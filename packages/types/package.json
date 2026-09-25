@@ -1,0 +1,14 @@
+{
+  "name": "@hometutoring/types",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "scripts": {
+    "lint": "echo 'no lint configured yet'",
+    "build": "echo 'no build step needed for plain JS'"
+  }
+}
